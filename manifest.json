@@ -17,8 +17,8 @@
     },
     "_FASTN_fastn-test/adw-ith.github.io_fastn-test_": {
       "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_",
-      "checksum": "C0814D3BD5929C8CDDCC21790E2108C4B0CBC5F1A23973C161257EDDF3DBA33A",
-      "size": 9998
+      "checksum": "9E03013EA2834C83A707D7AB94972C25EC59F1C9E6FC7ECA7A7FC53E8EF1BE08",
+      "size": 19802
     },
     "_FASTN_fastn-test/adw-ith.github.io_fastn-test_assets": {
       "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_assets",
@@ -132,8 +132,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "D8F5FF7C7E6DDDF3ECA2B68D46A7F87062B5A7BD23A30D6833A27B98EFD07D30",
-      "size": 1293
+      "checksum": "580E74AED2D2251BA924EF389F1DE11310A719763903E06E71C3E4E383616B14",
+      "size": 2705
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -142,5 +142,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/fastn-test/zip/refs/heads/main",
-  "checksum": "2F9322384BF05D0EF8E22A5BCE8C5A96910638AE3A0CB63A10B3F5EC093F04AA"
+  "checksum": "6A88ADDC8F3E900AAF4A0ACAF173A9A9614A321389739109B7D5B94BC332770E"
 }
