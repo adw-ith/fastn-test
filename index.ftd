@@ -1,4 +1,4 @@
--- doc-site.page: I'm Adwaith Raj
+-- doc-site.page: Hello ! I'm Adwaith Raj
 site-logo: $assets.files.images.new.png
 
 Web Developer
@@ -49,9 +49,60 @@ align-self: center
 		            border-radius.px : 10
 	-- end: ftd.column
 	-- end : ftd.row
-	-- ftd.row:
+	-- ftd.column:
+	       padding-vertical.px: 30
+	       width : fill-container
 		-- doc-site.h2: My Projects
-	-- end: ftd.row
+		-- ftd.column:
+		      padding-top.px: 20
+		      width : fill-container
+			-- ftd.column:
+			 color: white
+			 padding.px : 10
+			 border-width.px: 1
+			 width : fill-container
+			          margin-bottom.px: 10
+				-- ftd.text: BLOG APP
+				style : bold
+				-- ftd.text: STACKS USED : html,css,django
+				-- ftd.text: link : https://github.com/adw-ith/Post-app-django
+			-- end: ftd.column
+			-- ftd.column:
+			color: white
+			padding.px : 10
+			border-width.px: 1
+			width : fill-container
+			margin-bottom.px: 10
+				-- ftd.text: GIRLATHON WEBSITE
+				style : bold
+				-- ftd.text: STACKS USED : React,ts
+				-- ftd.text: link : https://girlathon24.vercel.app/
+			-- end: ftd.column
+			-- ftd.column:
+			color: white
+			padding.px : 10
+			border-width.px: 1
+			width : fill-container
+			margin-bottom.px: 10
+				-- ftd.text: SHOP CLIENT
+				style : bold
+				-- ftd.text: STACKS USED : React,bootstrap,ts
+				-- ftd.text: link : https://github.com/adw-ith/Shop-client
+			-- end: ftd.column
+			-- ftd.column:
+			color: white
+			padding.px : 10
+			border-width.px: 1
+			width : fill-container
+			margin-bottom.px: 10
+				-- ftd.text: PORTFOLIO - 3D CUBE
+				style : bold
+				-- ftd.text: STACKS USED : html,css,js
+				-- ftd.text: link : https://adw-ith.github.io/cube-portfolio-template/
+			-- end: ftd.column
+
+		-- end: ftd.column
+	-- end: ftd.column
 
 -- end: ftd.column
 
