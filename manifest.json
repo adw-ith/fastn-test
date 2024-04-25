@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "E49AB4E633D3CA27CF8E0F77AB150FA2FD3855EA3962B76AB7569B5DA5AC1810",
-      "size": 591
+      "checksum": "38421ADBEC40E323ECDC87017877D7031898328376415D39FC37D3E47767A0E8",
+      "size": 523
     },
     "FASTN/ds.ftd": {
       "name": "FASTN/ds.ftd",
@@ -14,6 +14,11 @@
       "name": "README.md",
       "checksum": "2C372A7AA51EFF6E5BE56E3D2D56DD55D63FBDF58A4D2E279392A02B55DDB960",
       "size": 1416
+    },
+    "_FASTN_fastn-test/adw-ith.github.io_fastn-test_": {
+      "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_",
+      "checksum": "398B10274A4F153EDCA6FF7CC2502EAE73795D626EF7C2E224BE858453A0B064",
+      "size": 956
     },
     "_config.yml": {
       "name": "_config.yml",
@@ -37,13 +42,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "32532606DDF89B56B42BA173EEAC7F7E9006DEEC07ABF10F6ABE246DC0EC1482",
-      "size": 1190
-    },
-    "sidebar.ftd": {
-      "name": "sidebar.ftd",
-      "checksum": "98EA5E5D5540AA8CCFA6C4ABEE6C2D476F6E1310B6B7E8978E81F62368EFA035",
-      "size": 1281
+      "checksum": "FE28AEDB04B730B68A5471EA7A0359FAD0E93F97A9937ED52B83D653CB80A443",
+      "size": 25
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -52,5 +52,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/fastn-test/zip/refs/heads/main",
-  "checksum": "A88C8618B856DDB05A4F4E4FFD2115E96F286CE2553F9579E2B57B61AD09DA92"
+  "checksum": "35CBCBC7240D0C0B93BE66C58E70DF72CD00DDF387CD4FCA19CA2B3F4BB112AB"
 }
