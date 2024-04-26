@@ -9,13 +9,64 @@ width: fill-container
 height: fill-container
 padding-top.px : 40
 -- doc-site.h2 : About Me
--- ftd.row:
+-- ftd.desktop:
+	-- ftd.row:
+	background.solid : #dbd1d0
+	width: fill-container
+	spacing: space-between
+	padding.px: 20
+	border-radius.px: 30
+	
+	-- ftd.column:
+	padding.px: 20
+	padding-left.px: 40
+	align-self: center
+	-- ftd.text: FULL NAME :
+	   style : bold
+	-- ftd.text: Adwaith Raj
+	       padding-bottom.px: 10
+	
+	-- ftd.text: CURRENT STATUS :
+	style : bold
+	-- ftd.text: studying at Mar Athanasius College Of Engineering,Kothamangalam
+	       padding-bottom.px: 10
+	-- ftd.text: ADDRESS :
+	style : bold
+	-- ftd.text: Edathitta P.O,Adoor,Pathanamthitta,691555
+	       padding-bottom.px: 10
+	-- ftd.text: CONTACT :
+	   style: bold
+	-- ftd.text: Email : adwaithraj45654@gmail.com
+	       padding-bottom.px: 10
+	-- ftd.text : SKILLS :
+	   style : bold
+	-- ftd.text : react,nextjs,nestjs,django
+	-- end : ftd.column
+	-- ftd.column:
+	align-self: center
+		-- ftd.image :
+		src : $assets.files.images.img.jpg
+		      width.fixed.px: 300
+		      height.fixed.px: 400
+		            border-radius.px : 10
+	-- end: ftd.column
+	-- end : ftd.row
+-- end: ftd.desktop
+-- ftd.mobile:
+-- ftd.column:
 background.solid : #dbd1d0
 width: fill-container
 spacing: space-between
 padding.px: 20
 border-radius.px: 30
-
+-- ftd.column:
+align-self: center
+	-- ftd.image :
+	src : $assets.files.images.img.jpg
+	      width.fixed.px: 300
+	      height.fixed.px: 400
+	            border-radius.px : 10
+-- end: ftd.column
 -- ftd.column:
 padding.px: 20
 padding-left.px: 40
@@ -41,14 +92,8 @@ align-self: center
 	   style : bold
 	-- ftd.text : react,nextjs,nestjs,django
 	-- end : ftd.column
-	-- ftd.column:
-		-- ftd.image :
-		src : $assets.files.images.img.jpg
-		      width.fixed.px: 300
-		      height.fixed.px: 400
-		            border-radius.px : 10
-	-- end: ftd.column
-	-- end : ftd.row
+	-- end : ftd.column
+	-- end : ftd.mobile
 	-- ftd.column:
 	       padding-vertical.px: 30
 	       width : fill-container
@@ -105,7 +150,4 @@ align-self: center
 	-- end: ftd.column
 
 -- end: ftd.column
-
-
-
 -- end: doc-site.page
