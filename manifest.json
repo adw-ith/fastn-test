@@ -17,13 +17,28 @@
     },
     "_FASTN_fastn-test/adw-ith.github.io_fastn-test_": {
       "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_",
-      "checksum": "A1D922C476A960BAFA930D7201C6177D17ACB380866B95C962B9D0B982B11424",
-      "size": 27938
+      "checksum": "A965CD510C40DEF8D0FED162C525AA5126BEEA0494E3C14CAC957FB11D92037D",
+      "size": 33549
     },
     "_FASTN_fastn-test/adw-ith.github.io_fastn-test_assets": {
       "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_assets",
       "checksum": "4986B2756E2FB688A2F2056ED2D461A0CE6E69200C7DB82EAE9EABDD4A3826A9",
       "size": 324
+    },
+    "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_button": {
+      "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_button",
+      "checksum": "9F73815CF4E864CC92B5B75B931EBA72EA425FC08C0BC2814C4105776EAB8569",
+      "size": 5513
+    },
+    "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_button_": {
+      "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_button_",
+      "checksum": "B329EF3CBA4FFA24A4011383BD4EBC09AC4F8F20641192E7438A1133D19E0C47",
+      "size": 1213
+    },
+    "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_card": {
+      "name": "_FASTN_fastn-test/adw-ith.github.io_fastn-test_components_card",
+      "checksum": "D401803DE44D65C3E0D21D41A666283FB9D600D8016894BCADB11D8770601CE3",
+      "size": 1207
     },
     "_FASTN_fastn-test/fastn-community.github.io_app-switcher": {
       "name": "_FASTN_fastn-test/fastn-community.github.io_app-switcher",
@@ -115,10 +130,20 @@
       "checksum": "A227CF22E798ACFB2D01B6352FC22A28047444F028AF05440C6CE6F9499C0EDF",
       "size": 15494
     },
+    "components/button.ftd": {
+      "name": "components/button.ftd",
+      "checksum": "D1C64BA82506409532DBB21AFDE5DD5CED5C338532AA2B15D5E6E0AD44F6C13D",
+      "size": 848
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
       "size": 15406
+    },
+    "images/1.png": {
+      "name": "images/1.png",
+      "checksum": "203B63B13360FAA6D25FE1425B02F315EC7B220DFC65E3120742E4D2965F1A01",
+      "size": 1036307
     },
     "images/img.jpg": {
       "name": "images/img.jpg",
@@ -132,8 +157,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "F734361E24409E08B25FF34968213BCE0EF2769B4CAB82BE2FC5B026818A93DF",
-      "size": 3813
+      "checksum": "74FB39DC3CF1751B2FBD5D795F9C5E375720D788CB0FCAC2878E436D900E69B8",
+      "size": 4623
     },
     "vercel.json": {
       "name": "vercel.json",
@@ -142,5 +167,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/adw-ith/fastn-test/zip/refs/heads/main",
-  "checksum": "7F7AE034E6EF6958EB4C8666B9F912C266C920BB6CA42800B2F85DEA445A3BEF"
+  "checksum": "09C450EE4CDE0B2D4F3C1992F69292AB56EA68E85E95F4284164AC717066DCE5"
 }

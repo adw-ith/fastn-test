@@ -1,0 +1,28 @@
+-- component button:
+caption title: View Work 
+optional string link:
+ftd.color text-color: $inherited.colors.text-strong
+ftd.color bg-color: $inherited.colors.background.base
+ftd.color br-color: $inherited.colors.border-strong
+boolean $is-hover: false
+
+-- ftd.text: $button.title
+link: $button.link
+width: fill-container
+padding-vertical.px: 8
+padding-horizontal.px: 16
+border-width.px : 2
+border-radius.px : 5
+style : heavy
+align-self : center
+text-align : center
+color if {!button.is-hover}: $button.text-color
+color if {button.is-hover}: $button.bg-color
+background.solid if {!button.is-hover}: $button.bg-color
+background.solid if {button.is-hover}: $button.text-color
+border-color: $button.br-color
+$on-mouse-enter$: $ftd.set-bool($a = $button.is-hover, v=true)
+$on-mouse-leave$: $ftd.set-bool($a = $button.is-hover, v=false)
+
+
+-- end : button

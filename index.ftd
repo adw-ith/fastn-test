@@ -1,3 +1,6 @@
+-- import: adw-ith.github.io/fastn-test/components/button as btn
+-- import: adw-ith.github.io/fastn-test/components/card as card
+
 -- doc-site.page: Hello ! I'm Adwaith Raj
 site-logo: $assets.files.images.new.png
 
@@ -71,83 +74,144 @@ align-self: center
 padding.px: 20
 padding-left.px: 40
 align-self: center
-	-- ftd.text: FULL NAME :
-	   style : bold
-	-- ftd.text: Adwaith Raj
-	       padding-bottom.px: 10
+-- ftd.text: FULL NAME :
+   style : bold
+-- ftd.text: Adwaith Raj
+       padding-bottom.px: 10
+
+-- ftd.text: CURRENT STATUS :
+style : bold
+-- ftd.text: studying at Mar Athanasius College Of Engineering,Kothamangalam
+       padding-bottom.px: 10
+-- ftd.text: ADDRESS :
+style : bold
+-- ftd.text: Edathitta P.O,Adoor,Pathanamthitta,691555
+       padding-bottom.px: 10
+-- ftd.text: CONTACT :
+   style: bold
+-- ftd.text: Email : adwaithraj45654@gmail.com
+       padding-bottom.px: 10
+-- ftd.text : SKILLS :
+   style : bold
+-- ftd.text : react,nextjs,nestjs,django
+-- end : ftd.column
+-- end : ftd.column
+-- end : ftd.mobile
+
+-- doc-site.h2 : My Projects
+
+-- ftd.desktop:
+-- ftd.column:
+	-- ftd.row:
+	spacing : space-between
 	
-	-- ftd.text: CURRENT STATUS :
-	style : bold
-	-- ftd.text: studying at Mar Athanasius College Of Engineering,Kothamangalam
-	       padding-bottom.px: 10
-	-- ftd.text: ADDRESS :
-	style : bold
-	-- ftd.text: Edathitta P.O,Adoor,Pathanamthitta,691555
-	       padding-bottom.px: 10
-	-- ftd.text: CONTACT :
-	   style: bold
-	-- ftd.text: Email : adwaithraj45654@gmail.com
-	       padding-bottom.px: 10
-	-- ftd.text : SKILLS :
-	   style : bold
-	-- ftd.text : react,nextjs,nestjs,django
-	-- end : ftd.column
-	-- end : ftd.column
-	-- end : ftd.mobile
-	-- ftd.column:
-	       padding-vertical.px: 30
-	       width : fill-container
-		-- doc-site.h2: My Projects
-		-- ftd.column:
-		      padding-top.px: 20
-		      width : fill-container
-			-- ftd.column:
-			 color: white
-			 padding.px : 10
-			 border-width.px: 1
-			 width : fill-container
-			          margin-bottom.px: 10
-				-- ftd.text: BLOG APP
-				style : bold
-				-- ftd.text: STACKS USED : html,css,django
-				-- ftd.text: link : https://github.com/adw-ith/Post-app-django
-			-- end: ftd.column
-			-- ftd.column:
-			color: white
-			padding.px : 10
-			border-width.px: 1
-			width : fill-container
-			margin-bottom.px: 10
-				-- ftd.text: GIRLATHON WEBSITE
-				style : bold
-				-- ftd.text: STACKS USED : React,ts
-				-- ftd.text: link : https://girlathon24.vercel.app/
-			-- end: ftd.column
-			-- ftd.column:
-			color: white
-			padding.px : 10
-			border-width.px: 1
-			width : fill-container
-			margin-bottom.px: 10
-				-- ftd.text: SHOP CLIENT
-				style : bold
-				-- ftd.text: STACKS USED : React,bootstrap,ts
-				-- ftd.text: link : https://github.com/adw-ith/Shop-client
-			-- end: ftd.column
-			-- ftd.column:
-			color: white
-			padding.px : 10
-			border-width.px: 1
-			width : fill-container
-			margin-bottom.px: 10
-				-- ftd.text: PORTFOLIO - 3D CUBE
-				style : bold
-				-- ftd.text: STACKS USED : html,css,js
-				-- ftd.text: link : https://adw-ith.github.io/cube-portfolio-template/
-			-- end: ftd.column
-
-		-- end: ftd.column
-	-- end: ftd.column
-
+		-- card:
+		title : Blog App
+		desc : html,css,django
+		link :  https://github.com/adw-ith/Post-app-django
+		-- card:
+		title : Girlathon
+		desc : React,ts
+		link : https://girlathon24.vercel.app/
+		-- card:
+		title : Shop Client
+		desc : React,ts,bootstrap
+		link : https://github.com/adw-ith/Shop-client
+		
+	-- end: ftd.row
+	-- ftd.row:
+	spacing : space-between
+	
+		-- card:
+		title : Portfolio - 3D
+		desc: html,css,js
+		link: https://adw-ith.github.io/cube-portfolio-template/
+		
+		-- card:
+		title : MACE Notes
+		desc : React,bootstrap
+		
+		
+		
+	-- end: ftd.row
 -- end: ftd.column
+-- end : ftd.desktop
+
+-- ftd.mobile:
+-- ftd.column:
+align-self: center
+
+	-- card:
+	title : Blog App
+	desc : html,css,django
+	link :  https://github.com/adw-ith/Post-app-django
+	
+	-- card:
+	title : Girlathon
+	desc : React,ts
+	link : https://girlathon24.vercel.app/
+	
+	-- card:
+	title : Shop Client
+	desc : React,ts,bootstrap
+	link : https://github.com/adw-ith/Shop-client
+	
+	-- card:
+	title : Portfolio - 3D
+	desc: html,css,js
+	link: https://adw-ith.github.io/cube-portfolio-template/
+	
+	-- card:
+	title : MACE Notes
+	desc : React,bootstrap
+	link : https://github.com/adw-ith/macenotes-lts
+	
+	
+-- end: ftd.column
+-- end : ftd.mobile
+
+
 -- end: doc-site.page
+
+-- component card:
+caption title: title
+string desc : stacks
+optional string link:
+optional string img-link: https://dummyimage.com/600x400/000/fff
+ftd.color text-color: $inherited.colors.text-strong
+ftd.color bg-color: $inherited.colors.background.base
+ftd.color br-color: $inherited.colors.border-strong
+
+-- ftd.container:
+width.fixed.px : 240
+height.fixed.px : 300
+border-width.px : 3
+padding.px : 20
+margin.px: 5
+border-radius.px : 5
+border-color : $card.br-color
+color : $card.text-color
+align-self : center
+
+	-- ftd.image:
+	src : $card.img-link
+	width.fixed.px: 200
+	height.fixed.px : 120
+	border-radius.px: 5
+	-- ftd.text: $card.title
+	region : h2
+	style : bold
+	padding-bottom.px : 10
+	-- ftd.text: Stacks Used :
+	region : h4
+	
+	-- ftd.text : $card.desc
+	padding-bottom.px : 20
+	
+	-- btn.button:
+	link : $card.link
+	
+	
+-- end: ftd.container
+
+-- end: card
